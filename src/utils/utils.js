@@ -21,7 +21,7 @@ export async function postData(url, data) {
     return responseData;
 }
 
-export const apiBaseUrl = 'http://localhost:5000';
+export const apiBaseUrl = 'https://aplikacia-api-jag8.vercel.app';
 
 export const apiUrl = {
     courses: apiBaseUrl + '/courses',
